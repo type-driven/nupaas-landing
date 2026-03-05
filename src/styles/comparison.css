@@ -1,0 +1,74 @@
+.comparison-table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--card-radius);
+}
+
+.comparison-table {
+  width: 100%;
+  min-width: 640px;
+  font-size: 0.9375rem;
+}
+
+.comparison-table th,
+.comparison-table td {
+  padding: 1rem 1.25rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.comparison-table thead th {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: var(--body-small);
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  background: var(--bg-section-alt);
+  padding: 0.875rem 1.25rem;
+}
+
+.comparison-table tbody td {
+  color: var(--text-secondary);
+  background: var(--bg-primary);
+}
+
+.comparison-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.row-label {
+  font-weight: 500;
+  color: var(--text-primary) !important;
+  white-space: nowrap;
+}
+
+.highlight-col {
+  background: var(--accent-light) !important;
+  color: var(--text-primary) !important;
+  font-weight: 600;
+  position: relative;
+}
+
+thead .highlight-col {
+  background: var(--accent-medium) !important;
+  color: var(--accent) !important;
+}
+
+thead .highlight-col::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--accent);
+}
+
+.comparison-footnote {
+  text-align: center;
+  font-size: var(--body-small);
+  color: var(--text-muted);
+  margin-top: 1.5rem;
+  font-style: italic;
+}

@@ -1,0 +1,63 @@
+:root {
+  /* Backgrounds */
+  --bg-primary: #ffffff;
+  --bg-section-alt: #fafafa;
+  --bg-card: #ffffff;
+  --bg-card-hover: #fafafa;
+  --bg-glass: rgba(255, 255, 255, 0.85);
+  --bg-input: #ffffff;
+  --bg-hero-gradient: linear-gradient(
+    160deg,
+    rgba(29, 115, 243, 0.08) 0%,
+    rgba(29, 115, 243, 0.04) 30%,
+    rgba(255, 255, 255, 0) 60%
+  );
+
+  /* Text */
+  --text-primary: #111111;
+  --text-secondary: #555555;
+  --text-muted: #999999;
+
+  /* Borders */
+  --border-subtle: #e8e8e8;
+  --border-hover: #d0d0d0;
+  --border-input: #d4d4d4;
+
+  /* Accent */
+  --accent: #1D73F3;
+  --accent-hover: #1562d0;
+  --accent-light: rgba(29, 115, 243, 0.08);
+  --accent-medium: rgba(29, 115, 243, 0.12);
+
+  /* Spacing */
+  --section-padding: 7rem 0;
+  --container-max: 1200px;
+  --container-padding: 0 2rem;
+  --card-radius: 12px;
+  --card-padding: 2rem;
+  --nav-height: 64px;
+
+  /* Typography */
+  --font-heading: "Manrope", sans-serif;
+  --font-body: "Poppins", sans-serif;
+  --h1-size: 4rem;
+  --h2-size: 2.5rem;
+  --h3-size: 1.375rem;
+  --body-size: 1.0625rem;
+  --body-small: 0.875rem;
+  --line-height: 1.6;
+
+  /* Shadows */
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.04),
+    0 4px 12px rgba(0, 0, 0, 0.04);
+  --shadow-card-hover: 0 2px 8px rgba(0, 0, 0, 0.06),
+    0 8px 24px rgba(0, 0, 0, 0.06);
+  --shadow-screenshot: 0 2px 8px rgba(0, 0, 0, 0.06),
+    0 12px 40px rgba(0, 0, 0, 0.08);
+  --shadow-nav: 0 1px 0 rgba(0, 0, 0, 0.06);
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+  --transition-slow: 400ms ease;
+}

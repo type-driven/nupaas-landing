@@ -1,0 +1,61 @@
+.problem-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.problem-card {
+  background: var(--bg-card);
+  border: 0px solid var(--border-subtle);
+  border-radius: var(--card-radius);
+  padding: 2.5rem 2rem;
+  transition: all var(--transition-base);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.problem-card:hover {
+  border-color: var(--border-hover);
+  box-shadow: var(--shadow-card-hover);
+  transform: translateY(-2px);
+}
+
+.problem-card:hover .problem-icon {
+  background: rgba(29, 115, 243, 0.14);
+  transform: scale(1.08);
+}
+
+.problem-card:hover .problem-icon svg {
+  stroke: var(--accent);
+}
+
+.problem-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 14px;
+  background: rgba(29, 115, 243, 0.08);
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  transition: all var(--transition-base);
+}
+
+.problem-card h3 {
+  color: var(--text-primary);
+  margin-bottom: 0.75rem;
+}
+
+.problem-card p {
+  font-size: 0.9375rem;
+  line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+  .problem-grid {
+    grid-template-columns: 1fr;
+  }
+}
