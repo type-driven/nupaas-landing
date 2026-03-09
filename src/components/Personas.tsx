@@ -55,6 +55,30 @@ export function Personas() {
             {"You\u2019ve outgrown Heroku but can\u2019t afford a platform team. NuPaas is the platform team you\u2019d hire \u2014 automated, opinionated, ready."}
           </p>
         </div>
+
+        {/* Row 4 */}
+        <div className="bento-card bento-stat bento-accent-08">
+          <div className="bento-stat-value">0</div>
+          <div className="bento-stat-label">rearchitecting required</div>
+        </div>
+        <div className="bento-card bento-wide bento-persona">
+          <h3>Teams migrating from Vercel / Supabase</h3>
+          <p>
+            {"You\u2019ve hit Vercel\u2019s limits or Supabase\u2019s pricing inflection. NuPaas\u2019s Vercel Lift and Supabase Lift move your projects and databases without a ground-up replatform."}
+          </p>
+        </div>
+
+        {/* Row 5 */}
+        <div className="bento-card bento-wide bento-persona">
+          <h3>Platform / DevOps / SRE teams</h3>
+          <p>
+            {"You operate mixed infrastructure across cloud providers and self-hosted nodes. NuPaas gives you a single control plane for node lifecycle, credential rotation, audit logs, and rollout controls \u2014 without replacing your existing providers."}
+          </p>
+        </div>
+        <div className="bento-card bento-stat bento-accent-12">
+          <div className="bento-stat-value">1</div>
+          <div className="bento-stat-label">control plane</div>
+        </div>
       </div>
     </SectionWrapper>
   );

@@ -83,7 +83,7 @@
   grid-column: span 2;
 }
 
-/* Row 2: wide card first, then two stat cards */
+/* Row 2: wide persona spans left 2 cols */
 .bento-card:nth-child(4) {
   grid-column: 1 / 3;
 }
@@ -93,7 +93,7 @@
   grid-column: auto;
 }
 
-/* Row 3: two stat cards then wide card */
+/* Row 3: two stat cards then wide persona on right */
 .bento-card:nth-child(7),
 .bento-card:nth-child(8) {
   grid-column: auto;
@@ -103,6 +103,24 @@
   grid-column: 3 / 5;
 }
 
+/* Row 4: stat card then wide persona spans right 2 cols */
+.bento-card:nth-child(10) {
+  grid-column: auto;
+}
+
+.bento-card:nth-child(11) {
+  grid-column: 2 / 4;
+}
+
+/* Row 5: wide persona spans left 2 cols, then stat card */
+.bento-card:nth-child(12) {
+  grid-column: 1 / 3;
+}
+
+.bento-card:nth-child(13) {
+  grid-column: auto;
+}
+
 @media (max-width: 768px) {
   .personas-bento {
     grid-template-columns: 1fr 1fr;
@@ -110,7 +128,9 @@
 
   .bento-wide,
   .bento-card:nth-child(4),
-  .bento-card:nth-child(9) {
+  .bento-card:nth-child(9),
+  .bento-card:nth-child(11),
+  .bento-card:nth-child(12) {
     grid-column: 1 / -1;
   }
 
@@ -126,7 +146,9 @@
 
   .bento-wide,
   .bento-card:nth-child(4),
-  .bento-card:nth-child(9) {
+  .bento-card:nth-child(9),
+  .bento-card:nth-child(11),
+  .bento-card:nth-child(12) {
     grid-column: auto;
   }
 }
