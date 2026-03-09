@@ -81,20 +81,36 @@ Deferred — not in current milestone.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| HERO-01, HERO-02 | Phase 1 | Pending |
-| CLAIM-01–05 | Phase 1 | Pending |
-| PROB-01–03 | Phase 1 | Pending |
+| HERO-01 | Phase 1 | Pending |
+| HERO-02 | Phase 1 | Pending |
+| CLAIM-01 | Phase 1 | Pending |
+| CLAIM-02 | Phase 1 | Pending |
+| CLAIM-03 | Phase 1 | Pending |
+| CLAIM-04 | Phase 1 | Pending |
+| CLAIM-05 | Phase 1 | Pending |
+| PROB-01 | Phase 1 | Pending |
+| PROB-02 | Phase 1 | Pending |
+| PROB-03 | Phase 1 | Pending |
 | CTA-01 | Phase 1 | Pending |
-| SOV-01–04 | Phase 2 | Pending |
+| SOV-01 | Phase 2 | Pending |
+| SOV-02 | Phase 2 | Pending |
+| SOV-03 | Phase 2 | Pending |
+| SOV-04 | Phase 2 | Pending |
 | TRUST-01 | Phase 2 | Pending |
-| FEAT-01–06 | Phase 3 | Pending |
-| PER-01–02 | Phase 3 | Pending |
+| FEAT-01 | Phase 3 | Pending |
+| FEAT-02 | Phase 3 | Pending |
+| FEAT-03 | Phase 3 | Pending |
+| FEAT-04 | Phase 3 | Pending |
+| FEAT-05 | Phase 3 | Pending |
+| FEAT-06 | Phase 3 | Pending |
+| PER-01 | Phase 3 | Pending |
+| PER-02 | Phase 3 | Pending |
 
 **Coverage:**
-- v1 requirements: 22 total
-- Mapped to phases: 22
+- v1 requirements: 24 total
+- Mapped to phases: 24
 - Unmapped: 0 ✓
 
 ---
 *Requirements defined: 2026-03-09*
-*Last updated: 2026-03-09 after initial definition*
+*Last updated: 2026-03-09 — traceability expanded to per-requirement rows, count corrected to 24*
