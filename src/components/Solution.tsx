@@ -24,7 +24,7 @@ export function Solution() {
         <div className="solution-header">
           <span className="solution-eyebrow">A third option</span>
           <h2 className="solution-headline">
-            One platform. Full control.<br />For 80% less.
+            One platform. Full control.<br />For up to 80% less.
           </h2>
         </div>
 
@@ -40,7 +40,7 @@ export function Solution() {
             <div className={`solution-anno solution-anno-1 ${visible ? "solution-anno-visible" : ""}`}>
               <div className="anno-line" />
               <div className="anno-bubble">
-                <span className="anno-value">2s</span>
+                <span className="anno-value">Seconds</span>
                 <span className="anno-label">to production</span>
               </div>
             </div>
@@ -81,13 +81,15 @@ export function Solution() {
           </div>
           <div className="solution-divider" />
           <div className="solution-point">
-            <h3>80% less than GCP</h3>
+            <h3>Up to 80% less than GCP</h3>
             <p>
-              Full production multi-cloud for ~{"€133"}/month. We route each
-              workload to the cheapest provider automatically.
+              Full production multi-cloud for as low as ~{"€133"}/month in an illustrative 5-service, 2-environment scenario. NuPaas routes each workload to the most cost-effective provider.
             </p>
           </div>
         </div>
+        <p className="solution-methodology">
+          Cost comparisons are directional estimates based on publicly available list pricing for comparable workloads. Actual savings vary by workload, region, and configuration.
+        </p>
       </div>
     </SectionWrapper>
   );

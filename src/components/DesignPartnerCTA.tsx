@@ -92,7 +92,7 @@ export function DesignPartnerCTA() {
               type="submit"
               disabled={state.submitting}
             >
-              {state.submitting ? "Sending..." : "Get early access"}
+              {state.submitting ? "Sending..." : "Apply as a founding partner"}
             </Button>
             {state.errors && state.errors.getFormErrors().length > 0 && (
               <p className="form-error">Something went wrong. Please try again.</p>

@@ -12,7 +12,7 @@ const rows = [
 export function Comparison() {
   return (
     <SectionWrapper id="pricing">
-      <h2 className="section-heading">The math speaks for itself</h2>
+      <h2 className="section-heading">The math, in an illustrative scenario</h2>
       <div className="comparison-table-wrap">
         <table className="comparison-table">
           <thead>
@@ -39,6 +39,9 @@ export function Comparison() {
       </div>
       <p className="comparison-footnote">
         *EU regions available but at premium pricing and with US-entity data processing.
+      </p>
+      <p className="comparison-footnote">
+        Illustrative scenario: 5 services across 2 environments. NuPaas pricing based on Hetzner/Scaleway spot rates as of Q1 2026. Competitor estimates based on published list pricing. Actual costs vary by workload and configuration.
       </p>
     </SectionWrapper>
   );

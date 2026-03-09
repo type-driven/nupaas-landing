@@ -17,7 +17,7 @@ const problems: ProblemItem[] = [
       </svg>
     ),
     title: "The US tax",
-    body: "Vercel, Railway, and Render give you great DX \u2014 but your data sits in US-owned data centers, you pay US prices, and one GDPR audit turns into a legal project. You\u2019re renting someone else\u2019s platform in someone else\u2019s jurisdiction.",
+    body: "Vercel, Railway, and Render offer great developer experience \u2014 but your data sits in US-owned infrastructure, subject to US legal jurisdiction. When a GDPR audit arrives or a customer asks where their data lives, that convenience turns into a compliance project. You\u2019re building on someone else\u2019s platform in someone else\u2019s jurisdiction, and your compliance posture pays the price.",
   },
   {
     icon: (
@@ -28,7 +28,7 @@ const problems: ProblemItem[] = [
       </svg>
     ),
     title: "The DIY trap",
-    body: "You could self-host. Set up Kubernetes, configure CI/CD, build monitoring, wire up secrets management. That\u2019s 3 months of your best engineer\u2019s time \u2014 and you still don\u2019t have product-market fit.",
+    body: "You could self-host. But self-hosting means assembling a fragmented stack: Kubernetes for orchestration, a CI/CD pipeline, a secrets manager, a monitoring stack, DNS and SSL tooling \u2014 each from a different vendor, each requiring ongoing maintenance. Before you\u2019ve shipped a single feature, your best engineers are maintaining glue code instead of building product.",
   },
   {
     icon: (
@@ -38,7 +38,7 @@ const problems: ProblemItem[] = [
       </svg>
     ),
     title: "The cost spiral",
-    body: "AWS bills grow 20\u201340% year over year. By Series A you\u2019re spending \u20AC2K/month on infrastructure that should cost \u20AC400. Every euro of burn that goes to cloud providers is a euro that doesn\u2019t go to product.",
+    body: "As your product grows, so does the operational surface area. More services, more environments, more alerts, more on-call rotations. Cloud bills compound \u2014 often 20\u201340% year over year \u2014 while the engineering time spent managing infrastructure scales right alongside them. By Series A, you\u2019re running a small ops department you never planned to hire.",
   },
 ];
 

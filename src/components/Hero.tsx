@@ -10,22 +10,22 @@ export function Hero() {
       <div className="container hero-content">
         <span className="hero-badge">NuPaas</span>
         <h1 className="hero-headline">
-          Deploy like Vercel. Pay
+          Own your platform
           <br />
-          like Hetzner. Own everything.
+          without building one from scratch.
         </h1>
         <p className="hero-sub">
-          NuPaas is a self-hosted deployment platform for European startups.
-          Modern developer experience, multi-cloud infrastructure, full data
-          sovereignty — at 80% less than hyperscaler pricing.
+          NuPaas gives European teams one control plane for deployments,
+          infrastructure, secrets, and observability across self-hosted and
+          cloud environments.
         </p>
         <div className="hero-actions">
           <Button variant="primary" size="large" href="#apply">
-            Apply for early access
+            Apply as a founding partner
           </Button>
         </div>
         <p className="hero-note">
-          We're onboarding 10 design partners. Limited spots.
+          We are onboarding 10 founding partners. Limited spots.
         </p>
         <div className="hero-screenshot" data-parallax="0.06">
           <ScreenshotFrame src={heroScreenshot} alt="NuPaas platform overview" />
