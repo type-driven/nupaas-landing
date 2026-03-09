@@ -50,6 +50,25 @@ const builtOn: TechItem[] = [
   },
 ];
 
+const trustPoints = [
+  {
+    label: "Workflow-native reliability",
+    body: "Durable background workers and replayable workflows — your jobs survive restarts and infra changes.",
+  },
+  {
+    label: "Unified cloud + self-hosted",
+    body: "One navigation system for cloud-provisioned and self-hosted nodes — no context switching between control planes.",
+  },
+  {
+    label: "Deep credential lifecycle",
+    body: "SSH keys, vault-backed secrets, and access-key rotation — not only environment variables.",
+  },
+  {
+    label: "Rollout controls by role",
+    body: "Gate deployments by org or role so teams can run controlled launches without feature flag infrastructure.",
+  },
+];
+
 const deploysTo: TechItem[] = [
   {
     name: "Hetzner",
@@ -90,28 +109,38 @@ const deploysTo: TechItem[] = [
 export function SocialProof() {
   return (
     <section className="social-proof">
-      <div className="container social-proof-inner">
-        <div className="social-proof-group">
-          <span className="social-proof-label">Built on</span>
-          <div className="social-proof-items">
-            {builtOn.map((t) => (
-              <span key={t.name} className="social-proof-item">
-                {t.icon}
-                {t.name}
-              </span>
-            ))}
-          </div>
+      <div className="container">
+        <div className="trust-points-grid">
+          {trustPoints.map((tp) => (
+            <div key={tp.label} className="trust-point">
+              <span className="trust-point-label">{tp.label}</span>
+              <p className="trust-point-body">{tp.body}</p>
+            </div>
+          ))}
         </div>
-        <div className="social-proof-divider" />
-        <div className="social-proof-group">
-          <span className="social-proof-label">Deploys to</span>
-          <div className="social-proof-items">
-            {deploysTo.map((t) => (
-              <span key={t.name} className="social-proof-item">
-                {t.icon}
-                {t.name}
-              </span>
-            ))}
+        <div className="social-proof-inner">
+          <div className="social-proof-group">
+            <span className="social-proof-label">Built on</span>
+            <div className="social-proof-items">
+              {builtOn.map((t) => (
+                <span key={t.name} className="social-proof-item">
+                  {t.icon}
+                  {t.name}
+                </span>
+              ))}
+            </div>
+          </div>
+          <div className="social-proof-divider" />
+          <div className="social-proof-group">
+            <span className="social-proof-label">Deploys to</span>
+            <div className="social-proof-items">
+              {deploysTo.map((t) => (
+                <span key={t.name} className="social-proof-item">
+                  {t.icon}
+                  {t.name}
+                </span>
+              ))}
+            </div>
           </div>
         </div>
       </div>
