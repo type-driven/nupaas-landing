@@ -42,7 +42,10 @@ Plans:
   2. "SOC 2 ready" badge is absent from the Sovereignty section
   3. Gaia-X reference uses "Gaia-X aligned" or equivalent non-certification language throughout
   4. Social proof component shows four trust talking points above the logos strip (workflow reliability, unified model, credential lifecycle, rollout controls)
-**Plans**: TBD
+**Plans**: 1 plan
+
+Plans:
+- [ ] 02-01-PLAN.md — Fix Sovereignty card 3 copy/badges and add trust talking-points row to SocialProof
 
 ### Phase 3: Section Restructures
 **Goal**: Features section presents the 5-pillar product surface and Personas section includes all five target audience cards
@@ -52,7 +55,10 @@ Plans:
   1. Features grid shows exactly five pillar cards: Ship, Operate, Secure, Observe, Migrate — each with the specified feature list
   2. Migrate pillar explicitly surfaces Supabase Lift and Vercel Lift as named capabilities
   3. Personas section shows five cards total — the original three (bootstrapped startups, B2B SaaS, growing teams 5-20) plus "Teams migrating from Vercel/Supabase" and "Platform / DevOps / SRE teams"
-**Plans**: TBD
+**Plans**: 1 plan
+
+Plans:
+- [ ] 03-01-PLAN.md — Restructure Features to 5-pillar grid, reframe HowItWorks as Day 0/1/2, add 2 new Personas bento cards
 
 ## Progress
 
@@ -62,5 +68,5 @@ Phases execute in numeric order: 1 → 2 → 3
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Copy Integrity | 0/1 | Not started | - |
-| 2. Trust Signals | 0/TBD | Not started | - |
-| 3. Section Restructures | 0/TBD | Not started | - |
+| 2. Trust Signals | 0/1 | Planned | - |
+| 3. Section Restructures | 0/1 | Planned | - |
