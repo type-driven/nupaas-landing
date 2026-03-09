@@ -28,7 +28,10 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. Comparison table and Solution section both carry methodology/illustrative-scenario notes
   4. Problem cards keep their punchy headings but body copy reflects Fragmented tooling / Compliance pressure / Rising ops burden framings
   5. Form submit button reads "Apply as a founding partner" matching the hero CTA
-**Plans**: TBD
+**Plans**: 1 plan
+
+Plans:
+- [ ] 01-copy-integrity-01-PLAN.md — Fix all flagged claims, CTAs, and problem card body copy across Hero, Solution, Comparison, Problem, and DesignPartnerCTA
 
 ### Phase 2: Trust Signals
 **Goal**: Sovereignty section no longer makes unvalidated compliance claims, and the social proof strip includes four trust talking points
@@ -44,7 +47,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 ### Phase 3: Section Restructures
 **Goal**: Features section presents the 5-pillar product surface and Personas section includes all five target audience cards
 **Depends on**: Phase 2
-**Requirements**: FEAT-01, FEAT-02, FEAT-03, FEAT-04, FEAT-05, FEAT-06, PER-01, PER-02
+**Requirements**: FEAT-01, FEAT-02, FEAT-03, FEAT-04, FEAT-05, FEAT-06, HOW-01, HOW-02, PER-01, PER-02
 **Success Criteria** (what must be TRUE):
   1. Features grid shows exactly five pillar cards: Ship, Operate, Secure, Observe, Migrate — each with the specified feature list
   2. Migrate pillar explicitly surfaces Supabase Lift and Vercel Lift as named capabilities
@@ -58,6 +61,6 @@ Phases execute in numeric order: 1 → 2 → 3
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Copy Integrity | 0/TBD | Not started | - |
+| 1. Copy Integrity | 0/1 | Not started | - |
 | 2. Trust Signals | 0/TBD | Not started | - |
 | 3. Section Restructures | 0/TBD | Not started | - |
