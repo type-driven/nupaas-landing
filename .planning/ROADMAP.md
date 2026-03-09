@@ -60,13 +60,23 @@ Plans:
 Plans:
 - [ ] 03-01-PLAN.md — Restructure Features to 5-pillar grid, reframe HowItWorks as Day 0/1/2, add 2 new Personas bento cards
 
+### Phase 4: Incorporate Findings into Landing
+**Goal**: All remaining unqualified "80%" claims in Personas.tsx are softened to "Up to 80%" per the CLAIM-AUDIT.md findings
+**Requirements**: CLAIM-10, CLAIM-11
+**Depends on**: Phase 3
+**Plans:** 1 plan
+
+Plans:
+- [ ] 04-01-PLAN.md — Qualify the two remaining bare "80%" instances in Personas.tsx (bento stat card + bootstrapped startups body copy)
+
 ## Progress
 
 **Execution Order:**
-Phases execute in numeric order: 1 → 2 → 3
+Phases execute in numeric order: 1 → 2 → 3 → 4
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Copy Integrity | 1/1 | Complete   | 2026-03-09 |
 | 2. Trust Signals | 0/1 | Planned | - |
 | 3. Section Restructures | 0/1 | Planned | - |
+| 4. Incorporate Findings | 0/1 | Planned | - |
