@@ -3,12 +3,12 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: unknown
-last_updated: "2026-03-09T12:42:08.149Z"
+last_updated: "2026-03-11T12:28:02Z"
 progress:
-  total_phases: 3
-  completed_phases: 3
-  total_plans: 3
-  completed_plans: 3
+  total_phases: 4
+  completed_phases: 4
+  total_plans: 4
+  completed_plans: 4
 ---
 
 # Project State
@@ -22,10 +22,10 @@ See: .planning/PROJECT.md (updated 2026-03-09)
 
 ## Current Position
 
-Phase: 3 of 3 (Section Restructures)
+Phase: 4 of 4 (Incorporate Findings Into Landing)
 Plan: 1 of 1 in current phase — COMPLETE
-Status: Phase 3 complete — ALL PHASES DONE
-Last activity: 2026-03-09 — Phase 3 section restructures: 5-pillar features, Day 0/1/2 ops steps, expanded personas (5 total)
+Status: Phase 4 complete — ALL PHASES DONE
+Last activity: 2026-03-11 — Phase 4: qualify remaining 80% claims in Personas bento (CLAIM-10, CLAIM-11)
 
 Progress: [██████████] 100%
 
@@ -51,6 +51,10 @@ Progress: [██████████] 100%
 
 ## Accumulated Context
 
+### Roadmap Evolution
+
+- Phase 4 added: incorporate findings into landing
+
 ### Decisions
 
 Decisions are logged in PROJECT.md Key Decisions table.
@@ -62,6 +66,7 @@ Recent decisions affecting current work:
 - Add personas, keep existing: Vercel/Supabase migration + DevOps/SRE added without removing current 3
 - Phase 2: Soften Gaia-X claim to "aligned" rather than removing badge — preserves positioning while removing unvalidated claim
 - Phase 2: Trust points placed above logos strip inside same section element — avoids new section, keeps scroll density low
+- Phase 4 (CLAIM-10/11): Use "Up to 80%" in stat card, "up to 80%" in persona body — hedged form preserves marketing impact while closing audit gaps
 
 ### Pending Todos
 
@@ -73,6 +78,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-09
-Stopped at: Completed 03-section-restructures/03-01-PLAN.md — 5-pillar features, Day 0/1/2 ops, expanded personas
+Last session: 2026-03-11
+Stopped at: Completed 04-incorporate-findings-into-landing/04-01-PLAN.md — qualify 80% claims in Personas bento (CLAIM-10, CLAIM-11)
 Resume file: None
