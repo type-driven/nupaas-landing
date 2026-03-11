@@ -19,6 +19,8 @@ Requirements for this milestone — aligning the landing page with the marketing
 - [x] **CLAIM-03**: "€133/mo" annotation updated to be framed as illustrative scenario
 - [x] **CLAIM-04**: Solution section adds a short methodology note (directional, not absolute)
 - [x] **CLAIM-05**: Comparison table adopts "illustrative scenario" framing with methodology footnote
+- [x] **CLAIM-10**: Personas bento stat card "80%" qualified to "Up to 80%"
+- [x] **CLAIM-11**: Bootstrapped startups persona body "cuts your infra bill by 80%" qualified to "can cut your infra bill by up to 80%"
 
 ### Problem Section
 
@@ -97,27 +99,30 @@ Deferred — not in current milestone.
 | PROB-02 | Phase 1 | Complete |
 | PROB-03 | Phase 1 | Complete |
 | CTA-01 | Phase 1 | Complete |
-| SOV-01 | Phase 2 | Pending |
-| SOV-02 | Phase 2 | Pending |
-| SOV-03 | Phase 2 | Pending |
-| SOV-04 | Phase 2 | Pending |
-| TRUST-01 | Phase 2 | Pending |
-| FEAT-01 | Phase 3 | Pending |
-| FEAT-02 | Phase 3 | Pending |
-| FEAT-03 | Phase 3 | Pending |
-| FEAT-04 | Phase 3 | Pending |
-| FEAT-05 | Phase 3 | Pending |
-| FEAT-06 | Phase 3 | Pending |
-| HOW-01 | Phase 3 | Pending |
-| HOW-02 | Phase 3 | Pending |
-| PER-01 | Phase 3 | Pending |
-| PER-02 | Phase 3 | Pending |
+| SOV-01 | Phase 2 | Complete |
+| SOV-02 | Phase 2 | Complete |
+| SOV-03 | Phase 2 | Complete |
+| SOV-04 | Phase 2 | Complete |
+| TRUST-01 | Phase 2 | Complete |
+| FEAT-01 | Phase 3 | Complete |
+| FEAT-02 | Phase 3 | Complete |
+| FEAT-03 | Phase 3 | Complete |
+| FEAT-04 | Phase 3 | Complete |
+| FEAT-05 | Phase 3 | Complete |
+| FEAT-06 | Phase 3 | Complete |
+| HOW-01 | Phase 3 | Complete |
+| HOW-02 | Phase 3 | Complete |
+| PER-01 | Phase 3 | Complete |
+| PER-02 | Phase 3 | Complete |
+| CLAIM-10 | Phase 4 | Complete |
+| CLAIM-11 | Phase 4 | Complete |
 
 **Coverage:**
 - v1 requirements: 26 total
-- Mapped to phases: 24
+- Mapped to phases: 26
 - Unmapped: 0 ✓
+- All complete: 26/26
 
 ---
 *Requirements defined: 2026-03-09*
-*Last updated: 2026-03-09 — traceability expanded to per-requirement rows, count corrected to 24*
+*Last updated: 2026-03-11 — CLAIM-10 and CLAIM-11 added (Phase 4); all requirements marked complete*

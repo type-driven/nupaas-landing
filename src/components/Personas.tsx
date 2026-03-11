@@ -10,7 +10,7 @@ export function Personas() {
       <div className="personas-bento reveal-children">
         {/* Row 1 */}
         <div className="bento-card bento-stat bento-accent-10">
-          <div className="bento-stat-value">80%</div>
+          <div className="bento-stat-value">Up to 80%</div>
           <div className="bento-stat-label">lower infra costs</div>
         </div>
         <div className="bento-card bento-stat bento-accent-15">
@@ -20,7 +20,7 @@ export function Personas() {
         <div className="bento-card bento-wide bento-persona">
           <h3>Bootstrapped startups</h3>
           <p>
-            {"You\u2019re watching every euro. NuPaas cuts your infra bill by 80% so you can extend your runway and focus on product."}
+            {"You\u2019re watching every euro. NuPaas can cut your infra bill by up to 80%, helping you extend runway and stay focused on product."}
           </p>
         </div>
 
