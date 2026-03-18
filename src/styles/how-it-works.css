@@ -1,3 +1,21 @@
+/* Skip the slow section-level fade — cards handle their own reveal */
+.how-it-works-section.section {
+  opacity: 1;
+  transform: none;
+  transition: none;
+}
+
+.step-card {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.step-card.step-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .steps-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -7,6 +25,19 @@
 .step-card {
   padding: var(--card-padding);
   text-align: center;
+}
+
+.step-illustration {
+  margin-bottom: 1.5rem;
+}
+
+.step-illustration object,
+.step-illustration img {
+  width: 100%;
+  max-width: 240px;
+  aspect-ratio: 1;
+  margin: 0 auto;
+  display: block;
 }
 
 .step-number {
@@ -35,7 +66,7 @@
   .step-card:not(:last-child)::after {
     content: "";
     position: absolute;
-    top: 2.5rem;
+    top: 50%;
     right: -1rem;
     width: 2rem;
     height: 1px;
@@ -53,10 +84,15 @@
     text-align: left;
     display: grid;
     grid-template-columns: auto 1fr;
-    grid-template-rows: auto auto;
+    grid-template-rows: auto auto auto;
     column-gap: 1.5rem;
     padding: 1.5rem 0;
     border-bottom: 1px solid var(--border-subtle);
+  }
+
+  .step-illustration {
+    grid-column: 1 / -1;
+    margin-bottom: 1rem;
   }
 
   .step-card:last-child {

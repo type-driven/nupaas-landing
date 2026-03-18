@@ -67,7 +67,7 @@ thead .highlight-col::before {
 
 .comparison-footnote {
   text-align: center;
-  font-size: var(--body-small);
+  font-size: 8px;
   color: var(--text-muted);
   margin-top: 1.5rem;
   font-style: italic;
