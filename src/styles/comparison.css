@@ -67,8 +67,82 @@ thead .highlight-col::before {
 
 .comparison-footnote {
   text-align: center;
-  font-size: 8px;
+  font-size: 0.75rem;
   color: var(--text-muted);
   margin-top: 1.5rem;
   font-style: italic;
+}
+
+/* ── Mobile: card layout ── */
+@media (max-width: 768px) {
+  .comparison-table-wrap {
+    border: none;
+    border-radius: 0;
+    overflow-x: visible;
+  }
+
+  .comparison-table {
+    min-width: 0;
+  }
+
+  .comparison-table thead {
+    display: none;
+  }
+
+  .comparison-table,
+  .comparison-table tbody,
+  .comparison-table tr,
+  .comparison-table td {
+    display: block;
+  }
+
+  .comparison-table tr {
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--card-radius);
+    margin-bottom: 1rem;
+    overflow: hidden;
+  }
+
+  .comparison-table td {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid var(--border-subtle);
+  }
+
+  .comparison-table td::before {
+    content: attr(data-label);
+    font-size: var(--body-small);
+    color: var(--text-muted);
+    font-weight: 500;
+    margin-right: 1rem;
+    flex-shrink: 0;
+  }
+
+  .comparison-table tbody tr:last-child td {
+    border-bottom: 1px solid var(--border-subtle);
+  }
+
+  .comparison-table td:last-child {
+    border-bottom: none;
+  }
+
+  .row-label {
+    background: var(--bg-section-alt);
+    font-weight: 600;
+    font-size: 1rem;
+    white-space: normal;
+    border-bottom: 1px solid var(--border-subtle) !important;
+  }
+
+  /* Row label has no data-label prefix */
+  .row-label::before {
+    display: none;
+  }
+
+  .highlight-col {
+    font-weight: 700;
+    color: var(--accent) !important;
+  }
 }

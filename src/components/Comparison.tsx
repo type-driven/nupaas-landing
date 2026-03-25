@@ -1,6 +1,8 @@
 import { SectionWrapper } from "./ui/SectionWrapper.tsx";
 import "../styles/comparison.css";
 
+const providers = ["Railway", "AWS (DIY)", "GCP", "NuPaas"] as const;
+
 const rows = [
   { label: "5 services, 2 envs", railway: "€200/mo", aws: "€500/mo", gcp: "€665/mo", nupaas: "€133/mo" },
   { label: "Data residency", railway: "US", aws: "Configurable*", gcp: "Configurable*", nupaas: "EU by default" },
@@ -8,6 +10,13 @@ const rows = [
   { label: "Setup time", railway: "Minutes", aws: "Weeks", gcp: "Weeks", nupaas: "Hours (once)" },
   { label: "You own the infra", railway: "No", aws: "Yes", gcp: "Yes", nupaas: "Yes" },
 ];
+
+const keys: Record<typeof providers[number], keyof typeof rows[number]> = {
+  "Railway": "railway",
+  "AWS (DIY)": "aws",
+  "GCP": "gcp",
+  "NuPaas": "nupaas",
+};
 
 export function Comparison() {
   return (
@@ -18,20 +27,24 @@ export function Comparison() {
           <thead>
             <tr>
               <th></th>
-              <th>Railway</th>
-              <th>AWS (DIY)</th>
-              <th>GCP</th>
-              <th className="highlight-col">NuPaas</th>
+              {providers.map((p) => (
+                <th key={p} className={p === "NuPaas" ? "highlight-col" : ""}>{p}</th>
+              ))}
             </tr>
           </thead>
           <tbody>
             {rows.map((r) => (
               <tr key={r.label}>
                 <td className="row-label">{r.label}</td>
-                <td>{r.railway}</td>
-                <td>{r.aws}</td>
-                <td>{r.gcp}</td>
-                <td className="highlight-col">{r.nupaas}</td>
+                {providers.map((p) => (
+                  <td
+                    key={p}
+                    className={p === "NuPaas" ? "highlight-col" : ""}
+                    data-label={p}
+                  >
+                    {r[keys[p]]}
+                  </td>
+                ))}
               </tr>
             ))}
           </tbody>

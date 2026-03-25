@@ -10,6 +10,19 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+
+#root {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+main {
+  overflow-x: hidden;
+  width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {

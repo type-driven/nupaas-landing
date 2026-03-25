@@ -74,6 +74,11 @@
     gap: 0.75rem;
   }
 
+  .social-proof-items {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
   .social-proof-divider {
     width: 48px;
     height: 1px;
