@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { SectionWrapper } from "./ui/SectionWrapper.tsx";
 import "../styles/solution.css";
-import solutionScreenshot from "../assets/screenshots/screen3.jpg";
+import solutionScreenshot from "../assets/screenshots/screen3.png";
 
 export function Solution() {
   const sectionRef = useRef<HTMLDivElement>(null);

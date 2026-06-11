@@ -1,6 +1,6 @@
 import { Button } from "./ui/Button.tsx";
 import { ScreenshotFrame } from "./ui/ScreenshotFrame.tsx";
-import heroScreenshot from "../assets/screenshots/screen1.jpg";
+import heroScreenshot from "../assets/screenshots/screen1.png";
 import "../styles/hero.css";
 
 export function Hero() {

@@ -18,6 +18,11 @@ function useParallax() {
     const mq = window.matchMedia("(prefers-reduced-motion: reduce)");
     if (mq.matches) return;
 
+    // Disable parallax on mobile/tablet — causes janky scroll on touch devices
+    const isMobile = window.matchMedia("(max-width: 1024px)").matches
+      || "ontouchstart" in window;
+    if (isMobile) return;
+
     function onScroll() {
       const els = document.querySelectorAll<HTMLElement>("[data-parallax]");
       for (const el of els) {

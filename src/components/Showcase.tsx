@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { ScreenshotFrame } from "./ui/ScreenshotFrame.tsx";
 import "../styles/showcase.css";
-import showcaseScreenshot from "../assets/screenshots/screen2.jpg";
+import showcaseScreenshot from "../assets/screenshots/screen2.png";
 
 const tabs = [
   {
