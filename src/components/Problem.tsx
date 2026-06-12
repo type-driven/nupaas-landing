@@ -16,8 +16,8 @@ const problems: ProblemItem[] = [
         <line x1="4" y1="22" x2="4" y2="15" />
       </svg>
     ),
-    title: "The US tax",
-    body: "Vercel, Railway, and Render offer great developer experience \u2014 but your data sits in US-owned infrastructure, subject to US legal jurisdiction. When a GDPR audit arrives or a customer asks where their data lives, that convenience turns into a compliance project. You\u2019re building on someone else\u2019s platform in someone else\u2019s jurisdiction, and your compliance posture pays the price.",
+    title: "The jurisdiction gap",
+    body: "Modern deployment platforms offer great developer experience \u2014 but most run on US-owned infrastructure, subject to US legal jurisdiction. When a GDPR audit arrives or a customer asks where their data lives, that convenience turns into a compliance project. You\u2019re building on someone else\u2019s platform in someone else\u2019s jurisdiction, and your compliance posture pays the price.",
   },
   {
     icon: (

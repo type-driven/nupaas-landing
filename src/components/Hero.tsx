@@ -8,7 +8,6 @@ export function Hero() {
     <section className="hero">
       <div className="hero-bg" />
       <div className="container hero-content">
-        <span className="hero-badge">NuPaas</span>
         <h1 className="hero-headline">
           Own your platform
           <br />
